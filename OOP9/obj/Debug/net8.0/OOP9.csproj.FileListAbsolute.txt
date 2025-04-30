@@ -1,0 +1,15 @@
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\OOP9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\OOP9.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\OOP9.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\OOP9.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\OOP9.sourcelink.json
+C:\Users\andre\source\repos\OOP\OOP9\bin\Debug\net8.0\OOP9.exe
+C:\Users\andre\source\repos\OOP\OOP9\bin\Debug\net8.0\OOP9.deps.json
+C:\Users\andre\source\repos\OOP\OOP9\bin\Debug\net8.0\OOP9.runtimeconfig.json
+C:\Users\andre\source\repos\OOP\OOP9\bin\Debug\net8.0\OOP9.dll
+C:\Users\andre\source\repos\OOP\OOP9\bin\Debug\net8.0\OOP9.pdb
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\OOP9.dll
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\refint\OOP9.dll
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\OOP9.pdb
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\OOP9.genruntimeconfig.cache
+C:\Users\andre\source\repos\OOP\OOP9\obj\Debug\net8.0\ref\OOP9.dll

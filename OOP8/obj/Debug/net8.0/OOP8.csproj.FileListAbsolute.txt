@@ -1,0 +1,15 @@
+C:\Users\andre\source\repos\OOP\OOP8\bin\Debug\net8.0\OOP8.exe
+C:\Users\andre\source\repos\OOP\OOP8\bin\Debug\net8.0\OOP8.deps.json
+C:\Users\andre\source\repos\OOP\OOP8\bin\Debug\net8.0\OOP8.runtimeconfig.json
+C:\Users\andre\source\repos\OOP\OOP8\bin\Debug\net8.0\OOP8.dll
+C:\Users\andre\source\repos\OOP\OOP8\bin\Debug\net8.0\OOP8.pdb
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\OOP8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\OOP8.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\OOP8.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\OOP8.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\OOP8.sourcelink.json
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\OOP8.dll
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\refint\OOP8.dll
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\OOP8.pdb
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\OOP8.genruntimeconfig.cache
+C:\Users\andre\source\repos\OOP\OOP8\obj\Debug\net8.0\ref\OOP8.dll

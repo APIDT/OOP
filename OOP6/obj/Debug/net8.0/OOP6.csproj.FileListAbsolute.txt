@@ -1,0 +1,15 @@
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\OOP6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\OOP6.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\OOP6.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\OOP6.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\OOP6.sourcelink.json
+C:\Users\andre\source\repos\OOP\OOP6\bin\Debug\net8.0\OOP6.exe
+C:\Users\andre\source\repos\OOP\OOP6\bin\Debug\net8.0\OOP6.deps.json
+C:\Users\andre\source\repos\OOP\OOP6\bin\Debug\net8.0\OOP6.runtimeconfig.json
+C:\Users\andre\source\repos\OOP\OOP6\bin\Debug\net8.0\OOP6.dll
+C:\Users\andre\source\repos\OOP\OOP6\bin\Debug\net8.0\OOP6.pdb
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\OOP6.dll
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\refint\OOP6.dll
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\OOP6.pdb
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\OOP6.genruntimeconfig.cache
+C:\Users\andre\source\repos\OOP\OOP6\obj\Debug\net8.0\ref\OOP6.dll

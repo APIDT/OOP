@@ -1,17 +1,15 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace CafeOrderWithSolid
 {
-    // Інтерфейс для стратегій знижок (OCP, DIP)
     public interface IDiscountStrategy
     {
         double CalculateDiscount(IEnumerable<(string страва, int кількість, double ціна)> orderItems, double total);
     }
 
-    // Клас для управління замовленнями (SRP)
     public class OrderManager
     {
         private Dictionary<string, double> menu = new Dictionary<string, double>()
@@ -63,7 +61,6 @@ namespace CafeOrderWithSolid
         }
     }
 
-    // Клас для розрахунку знижок (SRP, OCP, DIP)
     public class DiscountCalculator
     {
         private IDiscountStrategy discountStrategy;
@@ -79,7 +76,6 @@ namespace CafeOrderWithSolid
         }
     }
 
-    // Клас для генерації чека (SRP, DIP)
     public class ReceiptGenerator
     {
         public string GenerateReceipt(IEnumerable<(string страва, int кількість, double ціна)> orderItems, double total, double discount)
@@ -101,7 +97,6 @@ namespace CafeOrderWithSolid
         }
     }
 
-    // Клас для конкретної стратегії знижки (OCP, LSP)
     public class VolumeDiscount : IDiscountStrategy
     {
         private double discountPercent;
@@ -123,7 +118,6 @@ namespace CafeOrderWithSolid
         }
     }
 
-    // Клас для знижки "Купи X, отримай Y у подарунок" (OCP, LSP)
     public class BuyXGetYFreeDiscount : IDiscountStrategy
     {
         private string freeItemName;
@@ -164,22 +158,20 @@ namespace CafeOrderWithSolid
             orderManager.ПрийнятиЗамовлення("Кава", 2);
             orderManager.ПрийнятиЗамовлення("Тістечко", 1);
             orderManager.ПрийнятиЗамовлення("Суп", 1);
-            orderManager.ПрийнятиЗамовлення("Чай", 3); // Для тестування знижки "Купи 2, отримай 1 у подарунок"
+            orderManager.ПрийнятиЗамовлення("Чай", 3);
 
             double total = orderManager.РозрахуватиСуму();
             var orderItems = orderManager.ОтриматиПозиціїЗамовлення();
             double discount = 0.0;
 
-            // Вибір стратегії знижки (OCP)
-            IDiscountStrategy volumeDiscount = new VolumeDiscount(10, 100);  // 10% знижка, якщо сума > 100
-            IDiscountStrategy buy2Get1FreeTea = new BuyXGetYFreeDiscount("Чай", 2, 1); // Купи 2 чаї, отримай 1 у подарунок
+            IDiscountStrategy volumeDiscount = new VolumeDiscount(10, 100); 
+            IDiscountStrategy buy2Get1FreeTea = new BuyXGetYFreeDiscount("Чай", 2, 1);
 
             DiscountCalculator discountCalculator = new DiscountCalculator(volumeDiscount);
             discount = discountCalculator.CalculateDiscount(orderItems, total);
 
-            // Застосування другої знижки, якщо потрібно
             double teaDiscount = new DiscountCalculator(buy2Get1FreeTea).CalculateDiscount(orderItems, total);
-            discount = Math.Max(discount, teaDiscount); // Беремо більшу знижку, або можна їх комбінувати
+            discount = Math.Max(discount, teaDiscount); 
 
             Console.WriteLine($"\nСума замовлення: {total:F2} грн.");
             Console.WriteLine($"Знижка: {discount:F2} грн.");

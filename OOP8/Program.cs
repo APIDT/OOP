@@ -1,8 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
-
-
 
     public class CafeOrderWithoutSolid
     {
@@ -38,13 +36,12 @@ using System.Text;
             {
                 total += menu[item.страва] * item.кількість;
             }
-            ЗастосуватиЗнижку(); // Застосовуємо знижку при розрахунку суми
+            ЗастосуватиЗнижку(); 
             return total;
         }
 
         public void ЗастосуватиЗнижку()
         {
-            // "Зашита" логіка знижки: 10% якщо сума > 100, інакше 5% якщо є суп
             bool hasSoup = orderItems.Exists(item => item.страва == "Суп");
             if (total > 100)
             {
@@ -91,7 +88,7 @@ using System.Text;
 
             order.ПрийнятиЗамовлення("Кава", 2);
             order.ПрийнятиЗамовлення("Тістечко", 1);
-            order.ПрийнятиЗамовлення("Суп", 1); // Додамо суп для тестування знижки
+            order.ПрийнятиЗамовлення("Суп", 1);
 
             double total = order.РозрахуватиСуму();
             Console.WriteLine($"\nСума замовлення: {total} грн.");

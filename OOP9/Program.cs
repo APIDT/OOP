@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace OOP9
 {
@@ -6,7 +6,6 @@ namespace OOP9
     {
         static void Main(string[] args)
         {
-            // Створення організаційної структури
             Department topManagement = new Department("Топ-менеджмент", "Генеральний директор");
 
             Department developmentDepartment = new Department("Відділ розробки", "Керівник відділу розробки");
@@ -31,13 +30,10 @@ namespace OOP9
             topManagement.Add(qaDepartment);
             topManagement.Add(hrDepartment);
 
-            // Виведення інформації про структуру
             Console.WriteLine(topManagement.GetInfo());
 
-            // Підрахунок загальної кількості співробітників
             Console.WriteLine($"\nЗагальна кількість співробітників в компанії: {topManagement.GetSubordinateCount()}");
 
-            // Пошук співробітника за ім'ям
             IEmployee foundEmployee = topManagement.FindByName("Марія Сидоренко");
             if (foundEmployee != null)
             {
@@ -48,7 +44,6 @@ namespace OOP9
                 Console.WriteLine("\nСпівробітника не знайдено.");
             }
 
-            // Спроба додати вже існуючого співробітника
             developmentDepartment.Add(developer1);
         }
     }
